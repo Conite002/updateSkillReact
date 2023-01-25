@@ -1,0 +1,96 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 2rem;
+    background-color: white;
+    height: 250px;
+    padding: 2rem;
+    .description{
+        margin-right: 1rem;
+        width: 40%;
+        .top{
+            .title{
+                color: #38436667;
+                font-size: 12px;
+                font-weight: 100;
+            }
+            .number{
+                font-size: 3rem;
+                font-weight: bold;
+            }
+        }
+        .bottom{
+            .button{
+                display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                .pay{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    background-color: #6500df;
+                    padding: 1rem ;
+                    border-radius: 2rem;
+                    width: 150px;
+                    color: white;
+                    font-weight: bold;
+                }
+                .chevron{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    div{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: #38436667;
+                        padding: 1rem;
+                        margin: 4px;
+                        border-radius: 50%;
+                        width: 15px;
+                        height: 15px;
+                    }
+                }
+            }
+            .progresse-bar{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+    }
+    .card-small{
+        display: flex;
+        justify-content: space-between;
+        width: 600px;
+        overflow-x: scroll;
+
+    }
+    
+    .card-small::-webkit-scrollbar {
+        display: block;
+        width: 5px;
+        height: 0px;
+    }
+    .card-small::-webkit-scrollbar-track {
+        background: transparent;
+    }
+        
+    .card-small::-webkit-scrollbar-thumb {
+        background-color: red;
+        border-right: none;
+        border-left: none;
+    }
+    
+    .card-small::-webkit-scrollbar-track-piece:end {
+        background: transparent;
+        margin-bottom: 10px; 
+    }
+    
+    .card-small::-webkit-scrollbar-track-piece:start {
+        background: transparent;
+        margin-top: 10px;
+    }
+    
+}

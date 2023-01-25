@@ -1,0 +1,148 @@
+
+.container.table {
+    width: 1000px !important;
+    min-height: 56px;
+    margin: 1rem;
+}
+
+.edit-row, .confirm-modal{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-row >div{
+    width: 60%;
+    background-color: #fff;
+    padding: 20px;
+    min-height: 200px;
+    border-radius: 8px;
+}
+
+.confirm-modal>div{
+    width: 50%;
+    background-color: #fff;
+    padding: 20px;
+    min-height: 150px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.confirm-modal>div .yes-or-no{
+    display: flex;
+    justify-content: space-around;
+}
+.confirm-modal>div .yes-or-no .yes-btn{
+    border: none;
+    color: red;
+    background-color: rgba(255, 0, 0, 0.349);
+    border-radius: 8px;
+    padding: 6px 2rem !important;
+}
+
+.confirm-modal>div .yes-or-no .no-btn{
+    border: none;
+    color: green;
+    background-color: rgba(0, 128, 0, 0.349);
+    border-radius: 8px;
+    padding: 6px 2rem !important;
+}
+
+.edit-row >div form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:6px ;
+}
+
+.edit-row >div form .content{
+    display: flex;
+    align-items: baseline;
+    justify-content: center !important;
+    padding:auto;
+}
+
+.edit-row >div form .content input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.397);
+    margin: 6px;
+    width: 250px;
+    background-color: #cbd0d638;
+    padding: 6px;
+    border-radius: 8px;
+}
+.edit-row >div form .submit button{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: .5rem;
+    border-radius: 6px;
+}
+
+.edit-row >div form .content .submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.container.table .div-table{
+    width: 100%;
+}
+
+.div-table .table-row{
+    display: flex;
+    background: #fff;
+    width: 100%;
+    margin: 8px;
+    padding: .8rem;
+    border-radius: 12px;
+}
+
+.div-table .table-head .table-row {
+    display: flex;
+    background: #E7E8E9;
+    width: 100%;
+    margin: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #27303E;
+}
+
+
+.div-table .table-row .table-cell{
+    width: 160px;
+    flex: 1 1 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-table .table-row .table-cell.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-table .table-row .edit, .div-table .table-row .delete{
+    margin: 0 6px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E7E8E9;
+    border-radius: 50%;
+    cursor: pointer;
+}
+

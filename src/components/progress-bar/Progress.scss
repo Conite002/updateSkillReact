@@ -1,0 +1,35 @@
+.progress-bar{
+    .text{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span{
+            margin: 4px;
+        }
+    }
+    .row-border{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .border-green{
+            background-color: #38436667;
+            height: 3px;
+            width: 120px;
+            div{
+                background-color: green;
+                width: 60%;
+                height: 3px;
+            }
+        }
+        .border-yellow{
+            background-color: #38436667;
+            height: 3px;
+            width: 120px;
+            div{
+                background-color: yellow;
+                width: 60%;
+                height: 3px;
+            }
+        }
+    }
+}

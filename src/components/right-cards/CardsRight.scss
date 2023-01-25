@@ -1,0 +1,54 @@
+.color-blue{
+    background: rgb(238,174,202);
+    background: linear-gradient(0deg, rgba(238,174,202,.41) 0%, rgb(177, 212, 253) 100%);
+}
+
+.color-orange{
+    background: rgb(253, 247, 164) ;
+    background: linear-gradient(0deg, rgba(243, 205, 122, 0.747) 0%, rgb(253, 247, 164) 100%);
+}
+.color-green{
+    background:rgb(192, 248, 192) ;
+    background: linear-gradient(0deg, rgba(240, 233, 175, 0.747) rgb(242, 255, 242) 100%);
+}
+.card-right:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) -1px 4px 20px 0px;
+}
+.card-right{
+    margin:1rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    width: 300px !important;
+
+    .icon-blue{
+        width: 40px;
+        height: 40px;
+        background: #6500df;  /* fallback for old browsers */
+        border-radius: 1rem;
+    }
+    .icon-orange{
+        width: 40px;
+        height: 40px;
+        background: rgba(255, 255, 89, 0.849);  /* fallback for old browsers */
+        border-radius: 1rem;
+    }
+    .icon-green{
+        width: 40px;
+        height: 40px;
+        background: rgb(134, 253, 134);  /* fallback for old browsers */
+        border-radius: 1rem;
+    }
+    .title{
+        margin: 10px 0;
+        font-weight: bolder;
+        font-size: 16px;
+        color: white;
+    }
+    .number{
+        font-weight: bolder;
+        font-size: 2rem;
+    }
+    .description{
+        font-size: 10px;
+    }
+}

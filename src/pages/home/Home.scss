@@ -1,0 +1,13 @@
+.home{
+    position: relative;
+    margin-left: 233px;
+    padding: 2rem;
+    overflow: hidden;
+    .table{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
